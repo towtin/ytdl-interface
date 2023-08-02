@@ -31,7 +31,7 @@ node server
 localhost:5000/
 ```
 
-## 🚀 Package Used
+## 📦 Package Used
 I mainly used `ytdl-core` for the functionality and `express` for the server.
 
 ---
