@@ -36,4 +36,4 @@ I mainly used `ytdl-core` for the functionality and `express` for the server.
 
 ---
 
-_Made by [@towtin](https://github.com/towtin)
+_Made by [@towtin](https://github.com/towtin)_
