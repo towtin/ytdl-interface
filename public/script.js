@@ -10,9 +10,9 @@ function searchVideo() {
       let downOption = `
         <img class="thumbnailImage" src="${ytThumbnail}" alt="example">
         <div class="buttonInfo">
-            <button class="searchButton downloadButton" onclick="postAudio()">audio</button>
-            <button class="searchButton downloadButton" onclick="postVideo()">video</button>
-            <button class="searchButton downloadButton" onclick="postBoth()">both</button>
+            <button class="searchButton downloadButton" onclick="getAudio()">audio</button>
+            <button class="searchButton downloadButton" onclick="getVideo()">video</button>
+            <button class="searchButton downloadButton" onclick="getBoth()">download</button>
         </div>
       `;
       downloadBox.innerHTML = downOption;
@@ -23,12 +23,15 @@ function searchVideo() {
     });
 }
 
-function postAudio() {
+function getAudio() {
+  alert("Check your download folder!!!");
   fetch(`/options/mp3`);
 }
-function postVideo() {
+function getVideo() {
+  alert("Check your download folder!!!");
   fetch(`/options/mp4`);
 }
-function postBoth() {
+function getBoth() {
+  alert("Check your download folder!!!");
   fetch(`/options/both`);
 }

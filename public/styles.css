@@ -48,6 +48,11 @@ body {
     background-color: #f0f0f2;
 }
 
+.githubImage {
+    width: 20px;
+    margin-left: 5px;
+}
+
 .downloadBox {
     display: flex;
     flex-direction: row;
@@ -68,7 +73,7 @@ body {
 }
 
 .downloadButton {
-    width: 100px;
+    width: 150px;
     margin: 5px;
     background-color: #ff0000;
 }
