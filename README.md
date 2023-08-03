@@ -18,7 +18,7 @@ git clone https://github.com/towtin/ytdl-interface.git
 
 ~Install dependencies (make sure you are in the root of this repository)
 ```sh
-node install
+npm install
 ```
 
 ~Starting server on port 5000
