@@ -4,7 +4,7 @@
 `ytdl-interface` is a simple minimalistic user interface to download youtube video and audio.
 
 <p align="center">
-  <img width="700" align="center" src="https://raw.githubusercontent.com/towtin/ytdl-interface/main/example.png" alt="demo"/>
+  <img width="700" align="center" src="https://raw.githubusercontent.com/towtin/ytdl-interface/main/public/images/uiExample.png" alt="demo"/>
 </p>
 
 ## 🚀 Usage
